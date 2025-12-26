@@ -1,0 +1,15 @@
+environment: qa
+
+qa:
+  base_url: "https://opensource-demo.orangehrmlive.com/"
+  username: "Admin"
+  password: "admin123"
+
+browser:
+  name: chromium
+  headless: false
+  slow_mo: 3000
+
+timeouts:
+  implicit: 0
+  explicit: 10000
