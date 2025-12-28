@@ -1,6 +1,6 @@
 from pages.BasePage import BasePage
 from utils.logger import Logger
-
+from utils.assertions import Assertions
 
 class LoginPage(BasePage):
 
@@ -24,12 +24,16 @@ class LoginPage(BasePage):
 
     def get_error_message(self):
         print(f"Error message is:{self.get_text(self.error_message)}")
+        Assertions.assert_text(self.error_message, "Invalid credentials")
         # self.logger.info("")
+
         return self.get_text(self.error_message)
 
     def is_error_visible(self):
         self.logger.info("Checking if error message is visible")
-        return self.is_visible(self.error_message)
+        # return self.is_visible(self.error_message)
+        Assertions.assert_visible(self.error_message, "Error message not found!")
 
     def is_login_page_visible(self):
-        return self.is_visible(self.username_input)
+        Assertions.assert_visible(self.username_input, "Login page not found.")
+        # return self.is_visible(self.username_input)

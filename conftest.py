@@ -1,4 +1,7 @@
 import pytest
+import os
+import pytest_html
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 from utils.config_reader import ConfigReader
 
@@ -42,7 +45,7 @@ def pytest_runtest_makereport(item, call):
             import os
             from datetime import datetime
 
-            screenshots_dir = "screenshots"
+            screenshots_dir = "reports/screenshots"
             os.makedirs(screenshots_dir, exist_ok=True)
 
             timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -50,3 +53,12 @@ def pytest_runtest_makereport(item, call):
             screenshot_path = f"{screenshots_dir}/{test_name}_{timestamp}.png"
 
             page.screenshot(path=screenshot_path)
+
+
+def pytest_configure(config):
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    report_dir = "reports/html"
+    os.makedirs(report_dir, exist_ok=True)
+
+    config.option.htmlpath = f"{report_dir}/report_{timestamp}.html"
+    config.option.self_contained_html = True

@@ -8,5 +8,11 @@ class LoginData:
         {"username": "Admin", "password": "wrongpass"},
         {"username": "wronguser", "password": "admin123"},
         {"username": "wesas", "password": "admin123"},
-        {"username": "Admin", "password": "112312asd"}
+        {"username": "aassdda", "password": "112312asd"}
     ]
+
+    invalid_cred = {
+        "username": "adadmin",
+        "password": "passw"
+    }
+

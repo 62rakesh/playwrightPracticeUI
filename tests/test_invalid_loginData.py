@@ -16,5 +16,5 @@ def test_invalidLogin(page, user):
         user["username"], user["password"]
     )
 
-    assert login.is_error_visible()
-    assert "Invalid" in login.get_error_message()
+    login.is_error_visible()
+    login.get_error_message()

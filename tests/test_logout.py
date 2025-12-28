@@ -9,8 +9,8 @@ def test_logout(page):
     login.load("https://opensource-demo.orangehrmlive.com/")
     login.login("Admin", "admin123")
 
-    assert dashboard.is_dashboard_visible()
+    dashboard.is_dashboard_visible()
     dashboard.logout()
 
-    assert login.is_login_page_visible()
+    login.is_login_page_visible()
 

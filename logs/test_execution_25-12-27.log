@@ -1,0 +1,63 @@
+2025-12-27 00:33:45,619 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:33:52,791 | INFO | LoginPage | Performing logging action
+2025-12-27 00:33:52,810 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:33:55,870 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:33:58,921 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:34:03,178 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:34:04,426 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:34:11,455 | INFO | LoginPage | Performing logging action
+2025-12-27 00:34:11,477 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:34:14,545 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:34:17,583 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:34:21,405 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:34:23,432 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:34:33,416 | INFO | LoginPage | Performing logging action
+2025-12-27 00:34:33,465 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:34:36,523 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:34:39,577 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:34:44,037 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:34:45,458 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:34:52,631 | INFO | LoginPage | Performing logging action
+2025-12-27 00:34:52,683 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:34:55,758 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:34:58,813 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:35:03,019 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:35:04,220 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:35:11,735 | INFO | LoginPage | Performing logging action
+2025-12-27 00:35:11,760 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:35:14,820 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:35:17,878 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:35:22,201 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:35:23,335 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:35:30,681 | INFO | LoginPage | Performing logging action
+2025-12-27 00:35:30,710 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:35:33,779 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:35:36,823 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:35:40,706 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:35:41,991 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:35:49,063 | INFO | LoginPage | Performing logging action
+2025-12-27 00:35:49,095 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:35:52,156 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:35:55,217 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:35:59,174 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:36:00,348 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:36:07,121 | INFO | LoginPage | Performing logging action
+2025-12-27 00:36:07,144 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:36:10,195 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:36:13,281 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:36:17,387 | INFO | LoginPage | Checking if error message is visible
+2025-12-27 00:36:18,430 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:36:25,665 | INFO | LoginPage | Performing logging action
+2025-12-27 00:36:25,699 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:36:28,783 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:36:31,830 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:36:36,189 | INFO | DashboardPage | Checking dashboard page.
+2025-12-27 00:36:36,222 | INFO | DashboardPage | Performing logout action
+2025-12-27 00:36:36,252 | INFO | DashboardPage | Clicking on element: Profile Icon
+2025-12-27 00:36:39,364 | INFO | DashboardPage | Clicking on element: Logout Button
+2025-12-27 00:36:52,335 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2025-12-27 00:36:59,139 | INFO | LoginPage | Performing logging action
+2025-12-27 00:36:59,166 | INFO | LoginPage | Entering value into field: Username Input
+2025-12-27 00:37:02,235 | INFO | LoginPage | Entering value into field: Password Input
+2025-12-27 00:37:05,328 | INFO | LoginPage | Clicking on element: Login Button
+2025-12-27 00:37:09,760 | INFO | DashboardPage | Checking dashboard page.

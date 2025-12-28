@@ -7,7 +7,7 @@ class Logger:
 
     @staticmethod
     def get_logger(name):
-        logs_dir = "logs"
+        logs_dir = "reports/logs"
         os.makedirs(logs_dir, exist_ok=True)
 
         logger = logging.getLogger(name)

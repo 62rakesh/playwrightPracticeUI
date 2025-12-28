@@ -1,5 +1,6 @@
 from pages.BasePage import BasePage
 from utils.logger import Logger
+from utils.assertions import Assertions
 
 
 class DashboardPage(BasePage):
@@ -12,7 +13,8 @@ class DashboardPage(BasePage):
 
     def is_dashboard_visible(self):
         self.logger.info("Checking dashboard page.")
-        return self.is_visible(self.dashboard_header)
+        Assertions.assert_visible(self.dashboard_header, "Dashboard page is not visible")
+        # return self.is_visible(self.dashboard_header)
 
     def logout(self):
         self.logger.info("Performing logout action")

@@ -13,4 +13,4 @@ def test_validLogin(page):
         LoginData.valid_user["password"]
     )
 
-    assert dashboard.is_dashboard_visible()
+    dashboard.is_dashboard_visible()
