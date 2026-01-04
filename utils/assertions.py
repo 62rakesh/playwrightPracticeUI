@@ -12,6 +12,7 @@ class Assertions:
         actual_txt = locator.text_content()
         assert actual_txt == expected_text, (
             f"Expected: {expected_text} but got:{actual_txt}"
+
         )
 
     @staticmethod

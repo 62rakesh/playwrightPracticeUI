@@ -8,6 +8,9 @@ class AdminPage(BasePage):
 
         self.admin_menu = page.locator("(//span[normalize-space()='Admin'])")
         self.addUser_button = page.locator("(//DIV[@class='orangehrm-header-container'])//BUTTON")
+        self.deleteBtn = page.locator("//I[@class='oxd-icon bi-trash-fill oxd-button-icon']")
+        self.delete_text = page.locator("div.orangehrm-text-center-align")
+        self.yes_delete = page.locator("//I[@class='oxd-icon bi-trash oxd-button-icon']")
 
     def click_on_admin_menu(self):
         self.logger.info("Performing Admin functionality test")
@@ -46,5 +49,16 @@ class AdminPage(BasePage):
 
             table_body.evaluate("el => el.scrollTop += 300")
             self.page.wait_for_timeout(1000)
-
         raise Exception(f"Employee '{emp_name}' not found")
+
+    def delete_selected_user(self):
+        self.logger.info("Delete the selected employee")
+        self.click(self.deleteBtn, "Delete selected user")
+        Assertions.assert_text(self.delete_text, "The selected record will be permanently deleted. Are you sure you want to continue?")
+        self.logger.info(f"Expected text:'{self.delete_text.text_content()}'")
+        self.click(self.yes_delete, "Yes,Delete")
+        self.logger.info("User deleted the selected employee")
+
+
+
+

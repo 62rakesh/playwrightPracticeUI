@@ -1,0 +1,50 @@
+2026-01-04 18:10:07,611 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-01-04 18:10:23,898 | INFO | LoginPage | Performing logging action
+2026-01-04 18:10:23,931 | INFO | LoginPage | Entering value into field: Username Input
+2026-01-04 18:10:26,984 | INFO | LoginPage | Entering value into field: Password Input
+2026-01-04 18:10:30,052 | INFO | LoginPage | Clicking on element: Login Button
+2026-01-04 18:10:35,391 | INFO | DashboardPage | Checking dashboard page.
+2026-01-04 18:10:35,480 | INFO | AdminPage | Performing Admin functionality test
+2026-01-04 18:10:35,511 | INFO | AdminPage | Clicking on element: Admin menu
+2026-01-04 18:10:40,350 | INFO | AdminPage | select a specific user from the user table
+2026-01-04 18:10:40,405 | INFO | AdminPage | 1:matching employee name found from the table
+2026-01-04 18:10:40,473 | INFO | AdminPage | click on the selected user checkbox
+2026-01-04 18:10:40,473 | INFO | AdminPage | Delete the selected employee
+2026-01-04 18:10:40,490 | INFO | AdminPage | Clicking on element: Delete selected user
+2026-01-04 18:10:43,593 | INFO | AdminPage | Clicking on element: Yes,Delete
+2026-01-04 18:10:46,659 | INFO | AdminPage | User deleted the selected employee
+2026-01-04 18:39:20,651 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-01-04 18:39:37,271 | INFO | LoginPage | Performing logging action
+2026-01-04 18:39:37,305 | INFO | LoginPage | Entering value into field: Username Input
+2026-01-04 18:39:40,387 | INFO | LoginPage | Entering value into field: Password Input
+2026-01-04 18:39:43,454 | INFO | LoginPage | Clicking on element: Login Button
+2026-01-04 18:39:48,280 | INFO | DashboardPage | Checking dashboard page.
+2026-01-04 18:39:48,300 | INFO | AdminPage | Performing Admin functionality test
+2026-01-04 18:39:48,337 | INFO | AdminPage | Clicking on element: Admin menu
+2026-01-04 18:39:52,815 | INFO | AdminPage | select a specific user from the user table
+2026-01-04 18:39:52,895 | INFO | AdminPage | 1:matching employee name found from the table
+2026-01-04 18:39:52,933 | INFO | AdminPage | click on the selected user checkbox
+2026-01-04 18:39:52,933 | INFO | AdminPage | Delete the selected employee
+2026-01-04 18:39:52,952 | INFO | AdminPage | Clicking on element: Delete selected user
+2026-01-04 18:39:56,041 | INFO | AdminPage | Expected text:'The selected record will be permanently deleted. Are you sure you want to continue?'
+2026-01-04 18:39:56,056 | INFO | AdminPage | Clicking on element: Yes,Delete
+2026-01-04 18:39:59,113 | INFO | AdminPage | User deleted the selected employee
+2026-01-04 18:41:46,540 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-01-04 18:41:57,866 | INFO | LoginPage | Performing logging action
+2026-01-04 18:41:57,888 | INFO | LoginPage | Entering value into field: Username Input
+2026-01-04 18:42:00,942 | INFO | LoginPage | Entering value into field: Password Input
+2026-01-04 18:42:04,006 | INFO | LoginPage | Clicking on element: Login Button
+2026-01-04 18:42:08,886 | INFO | DashboardPage | Checking dashboard page.
+2026-01-04 18:42:08,903 | INFO | AdminPage | Performing Admin functionality test
+2026-01-04 18:42:08,927 | INFO | AdminPage | Clicking on element: Admin menu
+2026-01-04 18:42:13,500 | INFO | AdminPage | select a specific user from the user table
+2026-01-04 18:42:13,579 | INFO | AdminPage | 1:matching employee name found from the table
+2026-01-04 18:42:13,612 | INFO | AdminPage | click on the selected user checkbox
+2026-01-04 18:42:13,614 | INFO | AdminPage | Delete the selected employee
+2026-01-04 18:42:13,635 | INFO | AdminPage | Clicking on element: Delete selected user
+2026-01-04 18:42:16,732 | INFO | AdminPage | Expected text:'The selected record will be permanently deleted. Are you sure you want to continue?'
+2026-01-04 18:42:16,762 | INFO | AdminPage | Clicking on element: Yes,Delete
+2026-01-04 18:42:19,815 | INFO | AdminPage | User deleted the selected employee
+2026-01-04 18:42:19,815 | INFO | DashboardPage | Performing logout action
+2026-01-04 18:42:19,832 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-01-04 18:42:22,919 | INFO | DashboardPage | Clicking on element: Logout Button

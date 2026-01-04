@@ -19,4 +19,6 @@ def test_select_user_by_empName(page):
     dashboard_page.is_dashboard_visible()
     admin_page.click_on_admin_menu()
     admin_page.is_admin_page_visible()
-    admin_page.select_user_checkbox_by_employee_name("A8DCo 010Z")
+    admin_page.select_user_checkbox_by_employee_name("jumanji thunder")
+    admin_page.delete_selected_user()
+    dashboard_page.logout()
