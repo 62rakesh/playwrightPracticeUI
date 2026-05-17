@@ -1,9 +1,11 @@
+import pytest
+
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from utils.config_reader import ConfigReader
 from test_data.login_data import LoginData
 
-
+@pytest.mark.E2E
 def test_login_logout_E2E(page):
     login = LoginPage(page)
     dashboard = DashboardPage(page)

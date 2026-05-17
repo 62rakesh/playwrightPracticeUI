@@ -1,0 +1,15 @@
+2026-05-18 00:12:33,506 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-18 00:12:39,658 | INFO | LoginPage | Performing logging action
+2026-05-18 00:12:39,699 | INFO | LoginPage | Entering value into field: Username Input
+2026-05-18 00:12:42,782 | INFO | LoginPage | Entering value into field: Password Input
+2026-05-18 00:12:45,836 | INFO | LoginPage | Clicking on element: Login Button
+2026-05-18 00:12:50,410 | INFO | DashboardPage | Checking dashboard page.
+2026-05-18 00:12:50,488 | INFO | DashboardPage | Performing logout action
+2026-05-18 00:12:50,531 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-05-18 00:12:53,620 | INFO | DashboardPage | Clicking on element: Logout Button
+2026-05-18 00:12:58,607 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-18 00:13:04,326 | INFO | LoginPage | Performing logging action
+2026-05-18 00:13:04,354 | INFO | LoginPage | Entering value into field: Username Input
+2026-05-18 00:13:07,419 | INFO | LoginPage | Entering value into field: Password Input
+2026-05-18 00:13:10,480 | INFO | LoginPage | Clicking on element: Login Button
+2026-05-18 00:13:13,538 | INFO | DashboardPage | Checking dashboard page.

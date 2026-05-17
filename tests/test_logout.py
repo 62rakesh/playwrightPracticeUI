@@ -1,7 +1,9 @@
+import pytest
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 
-
+@pytest.mark.smoke
+@pytest.mark.logout
 def test_logout(page):
     login = LoginPage(page)
     dashboard = DashboardPage(page)

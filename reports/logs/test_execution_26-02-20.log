@@ -1,0 +1,170 @@
+2026-02-20 22:57:22,606 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 22:57:32,560 | INFO | LoginPage | Performing logging action
+2026-02-20 22:57:32,607 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 22:57:35,912 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 22:57:39,350 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 22:57:44,856 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 22:57:45,274 | INFO | AdminPage | Performing Admin functionality test
+2026-02-20 22:57:45,373 | INFO | AdminPage | Clicking on element: Admin menu
+2026-02-20 22:57:50,173 | INFO | module_configuration | Resetting modules
+2026-02-20 22:57:50,353 | INFO | module_configuration | Clicking on element: configuration menu
+2026-02-20 22:57:53,532 | INFO | module_configuration | user clicked on the configuration menu
+2026-02-20 22:57:53,554 | INFO | module_configuration | Total submenus are: 8
+2026-02-20 22:57:53,579 | INFO | module_configuration | submenus:Email Configuration
+2026-02-20 22:57:53,602 | INFO | module_configuration | submenus:Email Subscriptions
+2026-02-20 22:57:53,627 | INFO | module_configuration | submenus:Localization
+2026-02-20 22:57:53,650 | INFO | module_configuration | submenus:Language Packages
+2026-02-20 22:57:53,672 | INFO | module_configuration | submenus:Modules
+2026-02-20 22:57:57,852 | INFO | module_configuration | submenu: Modules: is selected
+2026-02-20 22:57:57,854 | INFO | module_configuration | Enable or disable module
+2026-02-20 22:57:57,935 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:57,975 | INFO | module_configuration | modules found:Admin Module
+2026-02-20 22:57:57,978 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,001 | INFO | module_configuration | modules found:Pim Module
+2026-02-20 22:57:58,002 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,026 | INFO | module_configuration | modules found:Leave Module
+2026-02-20 22:57:58,027 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,052 | INFO | module_configuration | modules found:Time Module
+2026-02-20 22:57:58,054 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,077 | INFO | module_configuration | modules found:Recruitment Module
+2026-02-20 22:57:58,081 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,103 | INFO | module_configuration | modules found:Performance Module
+2026-02-20 22:57:58,104 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,121 | INFO | module_configuration | modules found:Directory Module
+2026-02-20 22:57:58,121 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,143 | INFO | module_configuration | modules found:Maintenance Module
+2026-02-20 22:57:58,144 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,165 | INFO | module_configuration | modules found:Mobile
+2026-02-20 22:57:58,166 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,187 | INFO | module_configuration | modules found:Claim Module
+2026-02-20 22:57:58,188 | INFO | module_configuration | Total modules:11
+2026-02-20 22:57:58,206 | INFO | module_configuration | modules found:Buzz
+2026-02-20 22:58:01,326 | INFO | module_configuration | Clicking on element: save button
+2026-02-20 22:58:04,433 | INFO | module_configuration | module: 'Buzz' is updated successfully.
+2026-02-20 22:58:09,888 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 22:58:19,129 | INFO | LoginPage | Performing logging action
+2026-02-20 22:58:19,169 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 22:58:22,253 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 22:58:25,319 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 22:58:30,123 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 22:58:33,490 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 22:58:42,836 | INFO | LoginPage | Performing logging action
+2026-02-20 22:58:42,884 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 22:58:46,021 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 22:58:49,120 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 22:58:54,081 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 22:58:58,624 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 22:59:08,593 | INFO | LoginPage | Performing logging action
+2026-02-20 22:59:08,641 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 22:59:11,772 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 22:59:14,892 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 22:59:20,917 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 22:59:24,609 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 22:59:34,349 | INFO | LoginPage | Performing logging action
+2026-02-20 22:59:34,399 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 22:59:37,556 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 22:59:40,664 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 22:59:45,888 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 22:59:51,444 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:00:00,861 | INFO | LoginPage | Performing logging action
+2026-02-20 23:00:00,908 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:00:04,045 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:00:07,144 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:00:14,257 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 23:00:17,057 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:00:26,634 | INFO | LoginPage | Performing logging action
+2026-02-20 23:00:26,675 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:00:29,778 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:00:32,843 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:00:38,180 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 23:00:40,361 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:00:52,811 | INFO | LoginPage | Performing logging action
+2026-02-20 23:00:52,843 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:00:55,932 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:00:59,001 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:01:04,341 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 23:01:06,637 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:01:15,070 | INFO | LoginPage | Performing logging action
+2026-02-20 23:01:15,097 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:01:18,174 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:01:21,226 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:01:25,680 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 23:01:27,925 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:01:38,466 | INFO | LoginPage | Performing logging action
+2026-02-20 23:01:38,507 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:01:41,602 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:01:44,652 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:01:49,365 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 23:01:49,409 | INFO | DashboardPage | Performing logout action
+2026-02-20 23:01:49,445 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-02-20 23:01:52,568 | INFO | DashboardPage | Clicking on element: Logout Button
+2026-02-20 23:02:12,337 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:02:21,059 | INFO | LoginPage | Performing logging action
+2026-02-20 23:02:21,097 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:02:24,172 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:02:27,236 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:02:32,561 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 23:02:32,611 | INFO | AdminPage | Performing Admin functionality test
+2026-02-20 23:02:32,647 | INFO | AdminPage | Clicking on element: Admin menu
+2026-02-20 23:02:37,123 | INFO | AdminPage | select a specific user from the user table
+2026-02-20 23:02:42,810 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:02:51,773 | INFO | LoginPage | Performing logging action
+2026-02-20 23:02:51,795 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:02:54,847 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:02:57,898 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:03:00,943 | INFO | LoginPage | Checking if error message is visible
+2026-02-20 23:03:00,973 | INFO | LoginPage | Performing logging action
+2026-02-20 23:03:01,002 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:03:04,053 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:03:07,108 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:03:10,180 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 23:03:10,208 | INFO | DashboardPage | Performing logout action
+2026-02-20 23:03:10,319 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-02-20 23:03:13,435 | INFO | DashboardPage | Clicking on element: Logout Button
+2026-02-20 23:03:19,087 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:03:27,369 | INFO | LoginPage | Performing logging action
+2026-02-20 23:03:27,396 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:03:30,474 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:03:33,524 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:03:38,256 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 23:38:19,782 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-02-20 23:38:29,142 | INFO | LoginPage | Performing logging action
+2026-02-20 23:38:29,176 | INFO | LoginPage | Entering value into field: Username Input
+2026-02-20 23:38:32,263 | INFO | LoginPage | Entering value into field: Password Input
+2026-02-20 23:38:35,330 | INFO | LoginPage | Clicking on element: Login Button
+2026-02-20 23:38:42,153 | INFO | DashboardPage | Checking dashboard page.
+2026-02-20 23:38:42,218 | INFO | AdminPage | Performing Admin functionality test
+2026-02-20 23:38:42,271 | INFO | AdminPage | Clicking on element: Admin menu
+2026-02-20 23:38:50,881 | INFO | module_configuration | Resetting modules
+2026-02-20 23:38:50,931 | INFO | module_configuration | Clicking on element: configuration menu
+2026-02-20 23:38:54,030 | INFO | module_configuration | user clicked on the configuration menu
+2026-02-20 23:38:54,032 | INFO | module_configuration | Total submenus are: 8
+2026-02-20 23:38:54,044 | INFO | module_configuration | submenus:Email Configuration
+2026-02-20 23:38:54,044 | INFO | module_configuration | submenus:Email Subscriptions
+2026-02-20 23:38:54,071 | INFO | module_configuration | submenus:Localization
+2026-02-20 23:38:54,081 | INFO | module_configuration | submenus:Language Packages
+2026-02-20 23:38:54,090 | INFO | module_configuration | submenus:Modules
+2026-02-20 23:38:59,224 | INFO | module_configuration | submenu: Modules: is selected
+2026-02-20 23:38:59,225 | INFO | module_configuration | Enable or disable module
+2026-02-20 23:38:59,248 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,265 | INFO | module_configuration | modules found:Admin Module
+2026-02-20 23:38:59,266 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,275 | INFO | module_configuration | modules found:Pim Module
+2026-02-20 23:38:59,275 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,275 | INFO | module_configuration | modules found:Leave Module
+2026-02-20 23:38:59,275 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,296 | INFO | module_configuration | modules found:Time Module
+2026-02-20 23:38:59,296 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,314 | INFO | module_configuration | modules found:Recruitment Module
+2026-02-20 23:38:59,314 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,322 | INFO | module_configuration | modules found:Performance Module
+2026-02-20 23:38:59,322 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,329 | INFO | module_configuration | modules found:Directory Module
+2026-02-20 23:38:59,329 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,345 | INFO | module_configuration | modules found:Maintenance Module
+2026-02-20 23:38:59,345 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,365 | INFO | module_configuration | modules found:Mobile
+2026-02-20 23:38:59,365 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,382 | INFO | module_configuration | modules found:Claim Module
+2026-02-20 23:38:59,386 | INFO | module_configuration | Total modules:11
+2026-02-20 23:38:59,394 | INFO | module_configuration | modules found:Buzz

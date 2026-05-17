@@ -1,8 +1,10 @@
+import pytest
+
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from test_data.login_data import LoginData
 
-
+@pytest.mark.login
 def test_validLogin(page):
     login_page = LoginPage(page)
     dashboard = DashboardPage(page)

@@ -1,10 +1,12 @@
+import pytest
+
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from pages.adminPage import AdminPage
 from utils.config_reader import ConfigReader
 from test_data.login_data import LoginData
 
-
+@pytest.mark.regression
 def test_select_user_by_empName(page):
     login_page = LoginPage(page)
     dashboard_page = DashboardPage(page)
