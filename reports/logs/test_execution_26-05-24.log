@@ -1,0 +1,7 @@
+2026-05-24 23:43:06,982 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-24 23:43:19,046 | INFO | LoginPage | Performing logging action
+2026-05-24 23:43:19,075 | INFO | LoginPage | Entering value into field: Username Input
+2026-05-24 23:43:22,228 | INFO | LoginPage | Entering value into field: Password Input
+2026-05-24 23:43:25,306 | INFO | LoginPage | Clicking on element: Login Button
+2026-05-24 23:43:29,635 | INFO | LeavePage | Clicked Navigate to LeavePage
+2026-05-24 23:43:33,982 | INFO | LeavePage | Checked if LeavePage is visible
