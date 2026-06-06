@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, Locator
 from utils.logger import Logger
-
+from utils.config_reader import ConfigReader
 
 class BasePage:
 
@@ -11,6 +11,10 @@ class BasePage:
     def navigate(self, url):
         self.logger.info(f"Navigating to url: {url}")
         self.page.goto(url, wait_until="domcontentloaded")
+
+    def from_env(self, env):
+        self.logger.info(f"Getting base URL from {env} environment")
+        return ConfigReader.get_env()
 
     # def get_locator(self, selector):
     #     self.logger.info(f"Clicking on element: {selector}")

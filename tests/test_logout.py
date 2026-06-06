@@ -1,5 +1,7 @@
 import pytest
 from pages.login_page import LoginPage
+from utils.config_reader import ConfigReader
+from test_data.login_data import LoginData
 from pages.dashboard_page import DashboardPage
 
 @pytest.mark.smoke
@@ -7,10 +9,11 @@ from pages.dashboard_page import DashboardPage
 def test_logout(page):
     login = LoginPage(page)
     dashboard = DashboardPage(page)
-
-    login.load("https://opensource-demo.orangehrmlive.com/")
-    login.login("Admin", "admin123")
-
+    login.load(ConfigReader.get_base_url())
+    login.login(
+        LoginData.valid_user["username"],
+        LoginData.valid_user["password"]
+    )
     dashboard.is_dashboard_visible()
     dashboard.logout()
 

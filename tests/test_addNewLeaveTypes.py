@@ -6,6 +6,7 @@ from test_data.login_data import LoginData
 from utils.config_reader import ConfigReader
 
 @pytest.mark.leave
+@pytest.mark.smoke
 def test_add_newLeaveTypes(page):
     login = LoginPage(page)
     login.load(ConfigReader.get_base_url())

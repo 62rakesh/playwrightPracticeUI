@@ -11,8 +11,9 @@ class LoginPage(BasePage):
         self.login_btn = page.locator("(//BUTTON[@type='submit'])")
         self.error_message = page.locator("(//P[text()='Invalid credentials'])")
 
-    def load(self, url):
+    def load(self, url,env):
         self.navigate(url)
+        self.from_env(env)
         self.is_visible(self.username_input)
 
     def login(self, username, password):

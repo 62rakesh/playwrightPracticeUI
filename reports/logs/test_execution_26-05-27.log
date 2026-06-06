@@ -1,0 +1,26 @@
+2026-05-27 00:37:54,079 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-27 00:37:54,235 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-27 00:40:34,040 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-27 00:40:34,040 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-05-27 00:40:41,127 | INFO | LoginPage | Performing logging action
+2026-05-27 00:40:41,151 | INFO | LoginPage | Entering value into field: Username Input
+2026-05-27 00:40:42,966 | INFO | LoginPage | Performing logging action
+2026-05-27 00:40:42,997 | INFO | LoginPage | Entering value into field: Username Input
+2026-05-27 00:40:44,204 | INFO | LoginPage | Entering value into field: Password Input
+2026-05-27 00:40:46,059 | INFO | LoginPage | Entering value into field: Password Input
+2026-05-27 00:40:47,252 | INFO | LoginPage | Clicking on element: Login Button
+2026-05-27 00:40:49,109 | INFO | LoginPage | Clicking on element: Login Button
+2026-05-27 00:40:51,272 | INFO | DashboardPage | Checking dashboard page.
+2026-05-27 00:40:51,304 | INFO | DashboardPage | Performing logout action
+2026-05-27 00:40:51,328 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-05-27 00:40:53,404 | INFO | LeavePage | Clicked Navigate to LeavePage
+2026-05-27 00:40:54,417 | INFO | DashboardPage | Clicking on element: Logout Button
+2026-05-27 00:40:57,209 | INFO | LeavePage | Checked if LeavePage is visible
+2026-05-27 00:41:00,269 | INFO | LeavePage | Clicked on Configure menu
+2026-05-27 00:41:04,121 | INFO | LeavePage | Clicked on Leave Types menu
+2026-05-27 00:41:04,121 | INFO | LeavePage | Clicked on Add New LeaveTypes menu
+2026-05-27 00:41:09,620 | INFO | LeavePage | Clicked on Add New LeaveTypes menu
+2026-05-27 00:41:09,622 | INFO | LeavePage | The new leave type name is: IN - vacation LEAVE
+2026-05-27 00:41:17,166 | INFO | LeavePage | clicked on save button
+2026-05-27 00:41:28,241 | INFO | LeavePage | Verifying if new leave type is added
+2026-05-27 00:41:28,241 | INFO | LeavePage | A new leave type: IN - vacation LEAVE is added successfully.

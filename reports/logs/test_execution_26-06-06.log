@@ -1,0 +1,76 @@
+2026-06-06 17:07:22,514 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 17:07:28,918 | INFO | LoginPage | Performing logging action
+2026-06-06 17:07:28,951 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:07:32,014 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 17:11:48,304 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 17:11:48,468 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 17:11:55,579 | INFO | LoginPage | Performing logging action
+2026-06-06 17:11:55,615 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:11:55,678 | INFO | LoginPage | Performing logging action
+2026-06-06 17:11:55,711 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:11:58,708 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 17:11:58,809 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 17:12:01,773 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 17:12:01,882 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 17:24:19,912 | INFO | LoginPage | Navigating to url: ('https://opensource-demo.orangehrmlive.com/', 'dev-environment loaded successfully')
+2026-06-06 17:25:21,522 | INFO | LoginPage | Navigating to url: ('https://opensource-demo.orangehrmlive.com/', 'dev-environment loaded successfully')
+2026-06-06 17:27:06,003 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 17:27:12,822 | INFO | LoginPage | Performing logging action
+2026-06-06 17:27:12,866 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:27:15,948 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 17:27:19,009 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 17:27:23,100 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 17:27:23,151 | INFO | DashboardPage | Performing logout action
+2026-06-06 17:27:23,184 | INFO | DashboardPage | Clicking on element: Profile Icon
+2026-06-06 17:27:26,302 | INFO | DashboardPage | Clicking on element: Logout Button
+2026-06-06 17:27:30,931 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 17:27:37,085 | INFO | LoginPage | Performing logging action
+2026-06-06 17:27:37,101 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:27:40,150 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 17:27:43,205 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 17:27:46,250 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 17:30:16,309 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/ from environment: None
+2026-06-06 17:30:22,122 | INFO | LoginPage | Performing logging action
+2026-06-06 17:30:22,151 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 17:30:25,217 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:04:06,249 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:04:12,249 | INFO | LoginPage | Getting base URL from {'environment': 'dev', 'dev': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-06 18:04:12,314 | INFO | LoginPage | Performing logging action
+2026-06-06 18:04:12,345 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:04:15,420 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:04:18,472 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:04:23,042 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 18:07:44,480 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:07:50,444 | INFO | LoginPage | Getting base URL from {'environment': 'dev', 'dev': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-06 18:07:50,508 | INFO | LoginPage | Performing logging action
+2026-06-06 18:07:50,545 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:07:53,609 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:07:56,662 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:07:59,707 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 18:09:23,554 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:09:29,804 | INFO | LoginPage | Performing logging action
+2026-06-06 18:09:29,829 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:09:32,899 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:09:35,945 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:10:37,613 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:10:43,542 | INFO | LoginPage | Getting base URL from {'environment': 'dev', 'dev': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-06 18:10:43,618 | INFO | LoginPage | Performing logging action
+2026-06-06 18:10:43,664 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:10:46,743 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:10:49,777 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:10:52,832 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 18:14:36,644 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:14:42,530 | INFO | LoginPage | Getting base URL from {'environment': 'dev', 'dev': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-06 18:14:42,580 | INFO | LoginPage | Performing logging action
+2026-06-06 18:14:42,613 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:14:45,669 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:14:48,722 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:14:51,784 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 18:20:18,135 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-06 18:20:23,876 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-06 18:20:23,931 | INFO | LoginPage | Performing logging action
+2026-06-06 18:20:23,957 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-06 18:20:27,017 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-06 18:20:30,063 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-06 18:20:33,106 | INFO | DashboardPage | Checking dashboard page.
+2026-06-06 18:20:49,628 | INFO | LoginPage | Navigating to url: https://opensource-demo-uat.orangehrmlive.com/

@@ -12,26 +12,65 @@ def playwright_instance():
         yield p
 
 
-@pytest.fixture(scope="function")
-def page(request, playwright_instance):
+# @pytest.fixture(scope="function")
+# def page(request, playwright_instance):
+#     browser_config = ConfigReader.get_browser()
+#
+#     browser = getattr(playwright_instance, browser_config["name"]).launch(
+#         headless=browser_config["headless"],
+#         slow_mo=browser_config["slow_mo"]
+#     )
+#     context = browser.new_context()
+#     page = context.new_page()
+#     page.set_viewport_size(
+#         {"width": 1600, "height": 1080}
+#     )
+#     request.node.page = page
+#
+#     yield page
+#
+#     context.close()
+#     browser.close()
+@pytest.fixture(scope="session")
+def browser(playwright_instance):
     browser_config = ConfigReader.get_browser()
 
-    browser = getattr(playwright_instance, browser_config["name"]).launch(
+    browser = getattr(
+        playwright_instance,
+        browser_config["name"]
+    ).launch(
         headless=browser_config["headless"],
         slow_mo=browser_config["slow_mo"]
     )
+
+    yield browser
+
+    browser.close()
+
+
+@pytest.fixture(scope="function")
+def context(browser):
     context = browser.new_context()
+
+    yield context
+
+    context.close()
+
+
+@pytest.fixture(scope="function")
+def page(context, request):
     page = context.new_page()
-    page.set_viewport_size(
-        {"width": 1600, "height": 1080}
-    )
+
+    page.set_viewport_size({
+        "width": 1600,
+        "height": 1000
+    })
+
     request.node.page = page
 
     yield page
 
-    context.close()
-    browser.close()
-
+    page.close()
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
