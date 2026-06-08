@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2003a2a5-6cbd-47de-ad34-cc564799e780" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/uat.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/uat.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_addNewLeaveTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_addNewLeaveTypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_invalid_loginData.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_invalid_loginData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_select_user_by_empName.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_select_user_by_empName.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_userE2E.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_userE2E.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +61,9 @@
       <updated>1779652652840</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

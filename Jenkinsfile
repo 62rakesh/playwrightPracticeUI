@@ -1,20 +1,48 @@
+// pipeline {
+//     agent any
+//
+//     stages {
+//
+//         stage('Checkout') {
+//             steps {
+//                 checkout scm
+//             }
+//         }
+//
+//         stage('Build Docker Image') {
+//             steps {
+//                 sh 'docker build -t playwright-ui-framework .'
+//             }
+//         }
+//
+//         stage('Run Tests') {
+//             steps {
+//                 sh '''
+//                 docker run --rm \
+//                 -v $(pwd)/reports:/app/reports \
+//                 playwright-ui-framework
+//                 '''
+//             }
+//         }
+//     }
+// }
+
+
 pipeline {
-agent any
+    agent any
 
-stages {
+    stages {
 
-    stage('Checkout Verification') {
-        steps {
-            echo 'Playwright Framework Successfully Checked Out'
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Docker Validation') {
+            steps {
+                sh 'docker --version'
+            }
         }
     }
-
-    stage('Environment Verification') {
-        steps {
-            sh 'pwd'
-            sh 'ls -la'
-        }
-    }
-}
-
 }
