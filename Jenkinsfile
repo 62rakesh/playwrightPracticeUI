@@ -5,13 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Code checked out from GitHub'
-            }
-        }
-
-        stage('Verify Python') {
-            steps {
-                bat 'python --version'
+                git 'YOUR_GITHUB_REPO'
             }
         }
 
@@ -21,9 +15,15 @@ pipeline {
             }
         }
 
+        stage('Install Playwright Browsers') {
+            steps {
+                bat 'playwright install chromium'
+            }
+        }
+
         stage('Run Tests') {
             steps {
-                bat 'pytest -v'
+                bat 'pytest'
             }
         }
     }
