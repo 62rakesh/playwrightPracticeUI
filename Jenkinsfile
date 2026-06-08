@@ -5,44 +5,26 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                checkout scm
+                echo 'Code checked out from GitHub'
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Verify Python') {
             steps {
-                sh 'docker build -t playwright-ui-framework .'
+                bat 'python --version'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                bat 'pip install -r requirements.txt'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh '''
-                docker run --rm \
-                -v $(pwd)/reports:/app/reports \
-                playwright-ui-framework
-                '''
+                bat 'pytest -v'
             }
         }
     }
 }
-
-
-// pipeline {
-//     agent any
-//
-//     stages {
-//
-//         stage('Checkout') {
-//             steps {
-//                 checkout scm
-//             }
-//         }
-//
-//         stage('Docker Validation') {
-//             steps {
-//                 sh 'docker --version'
-//             }
-//         }
-//     }
-// }
