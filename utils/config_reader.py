@@ -18,7 +18,7 @@ class ConfigReader:
     @classmethod
     def load_env_config(cls):
         if cls._config is None:
-            env = os.getenv("TEST_ENV", "uat")
+            env = os.getenv("TEST_ENV", "dev")
             config_path = (
                 Path(__file__).parent.parent / "config" / f"{env}.yaml"
             )

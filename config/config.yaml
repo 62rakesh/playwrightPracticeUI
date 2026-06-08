@@ -7,7 +7,7 @@ qa:
 
 browser:
   name: chromium
-  headless: false
+  headless: true
   slow_mo: 3000
 
 timeouts:

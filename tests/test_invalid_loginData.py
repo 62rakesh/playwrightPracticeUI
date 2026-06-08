@@ -11,7 +11,7 @@ def test_invalidLogin(page, user):
     login = LoginPage(page)
     # dashboard = DashboardPage(page)
 
-    login.load(ConfigReader.get_base_url())
+    login.load(ConfigReader.get_base_url(),ConfigReader.load_env_config())
     login.login(
         user["username"], user["password"]
     )

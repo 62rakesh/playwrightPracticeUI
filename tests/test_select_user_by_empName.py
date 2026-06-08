@@ -12,7 +12,7 @@ def test_select_user_by_empName(page):
     dashboard_page = DashboardPage(page)
     admin_page = AdminPage(page)
 
-    login_page.load(ConfigReader.get_base_url())
+    login_page.load(ConfigReader.get_base_url(),ConfigReader.load_env_config())
     login_page.login(
         LoginData.valid_user["username"],
         LoginData.valid_user["password"]

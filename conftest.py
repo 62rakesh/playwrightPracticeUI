@@ -1,3 +1,4 @@
+print("Loading conftest.py...")
 import pytest
 import os
 import pytest_html
@@ -101,3 +102,11 @@ def pytest_configure(config):
 
     config.option.htmlpath = f"{report_dir}/report_{timestamp}.html"
     config.option.self_contained_html = True
+
+def pytest_addoption(parser):
+    parser.addoption(
+        "--env",
+        action="store",
+        default="dev",
+        help="Environment to run tests against"
+    )

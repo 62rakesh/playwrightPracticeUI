@@ -9,7 +9,7 @@ from pages.dashboard_page import DashboardPage
 def test_logout(page):
     login = LoginPage(page)
     dashboard = DashboardPage(page)
-    login.load(ConfigReader.get_base_url())
+    login.load(ConfigReader.get_base_url(), ConfigReader.load_env_config())
     login.login(
         LoginData.valid_user["username"],
         LoginData.valid_user["password"]

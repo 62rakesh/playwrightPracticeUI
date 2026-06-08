@@ -9,7 +9,7 @@ from utils.config_reader import ConfigReader
 @pytest.mark.smoke
 def test_add_newLeaveTypes(page):
     login = LoginPage(page)
-    login.load(ConfigReader.get_base_url())
+    login.load(ConfigReader.get_base_url(), ConfigReader.load_env_config())
     login.login(
         LoginData.valid_user["username"],
         LoginData.valid_user["password"]
