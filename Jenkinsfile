@@ -21,4 +21,21 @@ pipeline {
             }
         }
     }
+
+    post {
+        always {
+            archiveArtifacts(
+            artifacts: 'reports/screenshots/*.png',
+            allowEmptyArchive: true
+            )
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'reports/html',
+                reportFiles: '*.html',
+                reportName: 'Playwright Test Report'
+            ])
+        }
+    }
 }
