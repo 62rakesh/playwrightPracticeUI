@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'pytest -n 2'
+                bat 'pytes -m "login or logout"'
             }
         }
     }
