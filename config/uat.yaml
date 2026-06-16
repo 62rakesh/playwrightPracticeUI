@@ -7,8 +7,8 @@ uat:
 
 browser:
     name: chromium
-    headless: true
-    slow_mo: 3000
+    headless: false
+    slow_mo: 3500
 
 timeouts:
     implicit: 0

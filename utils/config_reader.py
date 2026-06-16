@@ -28,7 +28,7 @@ class ConfigReader:
 
     @classmethod
     def get_env(cls):
-        return cls.load_env_config()["environment"]
+        return os.getenv("TEST_ENV", "dev")
 
     @classmethod
     def get_base_url(cls):

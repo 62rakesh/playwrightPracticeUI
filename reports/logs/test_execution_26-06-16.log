@@ -1,0 +1,189 @@
+2026-06-16 23:04:39,035 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:04:45,682 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:04:45,790 | INFO | LoginPage | Performing logging action
+2026-06-16 23:04:45,876 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:04:48,959 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:04:52,026 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:04:55,096 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:04:55,165 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:04:55,211 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:04:59,031 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:04:59,032 | INFO | TimePage | create_customer
+2026-06-16 23:04:59,051 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:05:02,114 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:05:05,574 | INFO | TimePage | Add new customer page
+2026-06-16 23:05:05,610 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:05:18,210 | INFO | TimePage | Customer:{'customer_name': 'Kimberly'} is created
+2026-06-16 23:24:50,658 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:24:56,587 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:24:56,639 | INFO | LoginPage | Performing logging action
+2026-06-16 23:24:56,677 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:24:59,772 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:25:02,823 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:25:07,477 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:25:07,509 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:25:07,528 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:25:11,352 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:25:11,353 | INFO | TimePage | create_customer
+2026-06-16 23:25:11,369 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:25:14,453 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:25:17,956 | INFO | TimePage | Add new customer page
+2026-06-16 23:25:17,994 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:25:30,693 | INFO | TimePage | Customer:{'customer_name': 'Kimberly'} is created
+2026-06-16 23:25:30,694 | INFO | TimePage | search_customer
+2026-06-16 23:25:37,233 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:28:01,602 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:28:07,236 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3000}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:28:07,277 | INFO | LoginPage | Performing logging action
+2026-06-16 23:28:07,302 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:28:10,366 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:28:13,412 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:28:18,016 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:28:18,049 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:28:18,069 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:28:21,862 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:28:21,863 | INFO | TimePage | create_customer
+2026-06-16 23:28:21,880 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:28:24,977 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:28:28,435 | INFO | TimePage | Add new customer page
+2026-06-16 23:28:28,475 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:28:41,047 | INFO | TimePage | Customer:{'customer_name': 'Matthew'} is created
+2026-06-16 23:28:41,048 | INFO | TimePage | search_customer
+2026-06-16 23:29:00,128 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:30:51,320 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:30:54,376 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 0}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:30:54,421 | INFO | LoginPage | Performing logging action
+2026-06-16 23:30:55,279 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:30:55,346 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:30:55,388 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:30:56,394 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:31:30,282 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:31:36,774 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 1500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:31:36,817 | INFO | LoginPage | Performing logging action
+2026-06-16 23:31:36,837 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:31:38,402 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:31:39,951 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:31:41,514 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:31:41,541 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:31:41,565 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:31:44,411 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:31:44,412 | INFO | TimePage | create_customer
+2026-06-16 23:31:44,431 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:31:46,013 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:31:48,239 | INFO | TimePage | Add new customer page
+2026-06-16 23:31:48,279 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:31:54,873 | INFO | TimePage | Customer:{'customer_name': 'Jennifer'} is created
+2026-06-16 23:31:54,873 | INFO | TimePage | search_customer
+2026-06-16 23:31:58,869 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:34:16,421 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:34:23,778 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:34:23,854 | INFO | LoginPage | Performing logging action
+2026-06-16 23:34:23,884 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:34:27,458 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:34:31,017 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:34:36,127 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:34:36,155 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:34:36,181 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:34:40,550 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:34:40,550 | INFO | TimePage | create_customer
+2026-06-16 23:34:40,569 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:34:44,159 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:34:48,098 | INFO | TimePage | Add new customer page
+2026-06-16 23:34:48,136 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:35:03,004 | INFO | TimePage | Customer:{'customer_name': 'Patrick'} is created
+2026-06-16 23:35:03,005 | INFO | TimePage | search_customer
+2026-06-16 23:35:19,082 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:35:29,217 | INFO | TimePage | Customer:Patrick is searched successfully
+2026-06-16 23:41:39,118 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:41:46,540 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:41:46,597 | INFO | LoginPage | Performing logging action
+2026-06-16 23:41:46,627 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:41:50,180 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:41:53,731 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:41:57,273 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:41:57,304 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:41:57,328 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:42:01,618 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:42:01,619 | INFO | TimePage | create_customer
+2026-06-16 23:42:01,638 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:42:05,221 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:42:09,431 | INFO | TimePage | Add new customer page
+2026-06-16 23:42:09,463 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:42:24,026 | INFO | TimePage | Customer:{'customer_name': 'Jennifer'} is created
+2026-06-16 23:42:24,027 | INFO | TimePage | search_customer
+2026-06-16 23:42:31,910 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:42:42,038 | INFO | TimePage | Customer:Jennifer is searched successfully
+2026-06-16 23:44:50,350 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:44:57,489 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:44:57,584 | INFO | LoginPage | Performing logging action
+2026-06-16 23:44:57,623 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:45:01,227 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:45:04,790 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:45:10,058 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:45:10,085 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:45:10,106 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:45:14,523 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:45:14,524 | INFO | TimePage | create_customer
+2026-06-16 23:45:14,545 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:45:18,136 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:45:22,090 | INFO | TimePage | Add new customer page
+2026-06-16 23:45:22,126 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:45:36,774 | INFO | TimePage | Customer:{'customer_name': 'Justin'} is created
+2026-06-16 23:45:36,774 | INFO | TimePage | search_customer
+2026-06-16 23:46:57,694 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:47:05,584 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:47:05,628 | INFO | LoginPage | Performing logging action
+2026-06-16 23:47:05,654 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:47:09,217 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:47:12,774 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:47:16,347 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:47:16,375 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:47:16,394 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:47:20,687 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:47:20,688 | INFO | TimePage | create_customer
+2026-06-16 23:47:20,705 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:47:24,278 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:47:28,495 | INFO | TimePage | Add new customer page
+2026-06-16 23:47:28,529 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:47:48,156 | INFO | TimePage | Customer:{'customer_name': 'Michelle'} is created
+2026-06-16 23:47:48,156 | INFO | TimePage | search_customer
+2026-06-16 23:47:55,994 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:48:06,110 | INFO | TimePage | Customer:Michelle is searched successfully
+2026-06-16 23:57:25,189 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:57:35,339 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:57:35,387 | INFO | LoginPage | Performing logging action
+2026-06-16 23:57:35,420 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:57:38,979 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:57:42,534 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:57:47,295 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:57:47,320 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:57:47,338 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:57:51,645 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:57:51,645 | INFO | TimePage | create_customer
+2026-06-16 23:57:51,661 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:57:55,248 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:58:00,214 | INFO | TimePage | Add new customer page
+2026-06-16 23:58:00,258 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-16 23:58:20,229 | INFO | TimePage | Customer:{'customer_name': 'Brandy'} is created
+2026-06-16 23:58:20,230 | INFO | TimePage | search_customer
+2026-06-16 23:58:28,073 | INFO | TimePage | user navigates to the project page
+2026-06-16 23:58:38,180 | INFO | TimePage | Customer:Brandy is searched successfully
+2026-06-16 23:59:19,329 | INFO | LoginPage | Navigating to url: https://opensource-demo.orangehrmlive.com/
+2026-06-16 23:59:26,864 | INFO | LoginPage | Getting base URL from {'environment': 'uat', 'uat': {'base_url': 'https://opensource-demo.orangehrmlive.com/', 'username': 'Admin', 'password': 'admin123'}, 'browser': {'name': 'chromium', 'headless': False, 'slow_mo': 3500}, 'timeouts': {'implicit': 0, 'explicit': 10000}} environment
+2026-06-16 23:59:26,924 | INFO | LoginPage | Performing logging action
+2026-06-16 23:59:26,950 | INFO | LoginPage | Entering value into field: Username Input
+2026-06-16 23:59:30,518 | INFO | LoginPage | Entering value into field: Password Input
+2026-06-16 23:59:34,062 | INFO | LoginPage | Clicking on element: Login Button
+2026-06-16 23:59:38,884 | INFO | DashboardPage | Checking dashboard page.
+2026-06-16 23:59:38,910 | INFO | TimePage | click_on_time_menu
+2026-06-16 23:59:38,929 | INFO | TimePage | Clicking on element: Time
+2026-06-16 23:59:43,192 | INFO | TimePage | Check if project-info is visible
+2026-06-16 23:59:43,193 | INFO | TimePage | create_customer
+2026-06-16 23:59:43,215 | INFO | TimePage | Clicking on element: project-info
+2026-06-16 23:59:46,792 | INFO | TimePage | Clicking on element: Customer
+2026-06-16 23:59:51,021 | INFO | TimePage | Add new customer page
+2026-06-16 23:59:51,055 | INFO | TimePage | Clicking on element: Add Customer
+2026-06-17 00:00:10,659 | INFO | TimePage | Customer:{'customer_name': 'Jennifer'} is created
+2026-06-17 00:00:10,660 | INFO | TimePage | search_customer
+2026-06-17 00:00:18,439 | INFO | TimePage | user navigates to the project page
+2026-06-17 00:00:28,540 | INFO | TimePage | Customer:Jennifer is searched successfully

@@ -12,7 +12,30 @@ def playwright_instance():
     with sync_playwright() as p:
         yield p
 
+def pytest_sessionstart(session):
+    valid_envs = ["dev", "qa", "uat"]
+    env = ConfigReader.get_env()
+    if env not in valid_envs:
+        raise Exception(
+            f"Invalid environment '{env}'."
+            f"Allowed environments are: {valid_envs}"
+        )
 
+    browser_config = ConfigReader.get_browser()
+
+    print("\n")
+    print("=" * 60)
+    print("         PLAYWRIGHT UI AUTOMATION FRAMEWORK")
+    print("=" * 60)
+
+    print(f"Environment : {env.upper()}")
+    print(f"Browser     : {browser_config['name'].upper()}")
+    print(f"Headless    : {browser_config['headless']}")
+    print(f"Slow Mo     : {browser_config['slow_mo']}")
+    print(f"Base URL    : {ConfigReader.get_base_url()}")
+
+    print("=" * 60)
+    print("\n")
 # @pytest.fixture(scope="function")
 # def page(request, playwright_instance):
 #     browser_config = ConfigReader.get_browser()
